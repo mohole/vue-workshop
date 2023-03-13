@@ -21,7 +21,7 @@
 | --------------- | ---------------------------------------- |
 | `(root)`        | main config files                        |
 | `/fundamentals` | Theory introduction files                |
-| `/components `  | Vue components for UI                    |
+| `/components`   | Vue components for UI                    |
 | `/pages`        | Vue components that will behave as pages |
 
 ## API

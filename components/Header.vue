@@ -4,7 +4,7 @@
       <h1>
         <NuxtLink to="/" class="navbar-brand">Rick & Morty</NuxtLink>
       </h1>
-      <p class="navbar-text">Catalogo episodi</p>
+      <small class="navbar-text">Catalogo personaggi</small>
     </hgroup>
   </header>
 </template>
