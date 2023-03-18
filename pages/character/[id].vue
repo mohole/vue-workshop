@@ -1,14 +1,12 @@
 <script setup>
 const route = useRoute()
 
-const data = ref({})
-
-onMounted(async () => {
-  const response = await fetch(`https://rickandmortyapi.com/api/character/${route.params.id}`)
-  const json = await response.json()
-  data.value = json
+const { data } = useFetch(`https://rickandmortyapi.com/api/character/${route.params.id}`, {
+  default: () => ({
+    name: "",
+    image: ""
+  })
 })
-
 </script>
 
 <template>

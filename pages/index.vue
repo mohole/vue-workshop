@@ -1,19 +1,15 @@
 <script setup>
 
-const data = ref([])
-
-onMounted(async () => {
-  const response = await fetch('https://rickandmortyapi.com/api/character')
-  const json = await response.json()
-  data.value = json.results
-})
+const { data } = useFetch('https://rickandmortyapi.com/api/character', {
+  default: () => ({ results: [] })
+} )
 
 </script>
 
 <template>
   <NuxtLayout name="main">
     <ul class="list-unstyled">
-      <li v-for="item in data" :key="item.id">
+      <li v-for="item in data.results" :key="item.id">
         <Card :data="item" />
       </li>
     </ul>
@@ -29,7 +25,7 @@ ul {
 
   li {
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-out;
     transform: scale(0.9);
 
     &:hover {
