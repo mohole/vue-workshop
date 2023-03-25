@@ -1,11 +1,14 @@
-# Vue Workshop - ??/??/2023 @ Mohole
+# Vue + Nuxt Workshop - 18/04/2023 @ Mohole
 
+[ ITA ]
+In questa giornata vedremo come realizzare da zero un catalogo dei personaggi della serie "Rick & Morty" utilizzando il framework Nuxt (*basato su Vue.js*) e una fonte di dati pubblica (https://rickandmortyapi.com/).
 ## Requirements
 
 - [Node.js](https://nodejs.org/) v16+
 - [VS Code](https://code.visualstudio.com/)
 - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (_VS Code extension_)
 - [Vue developer tools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en) (_browser extension_)
+- [Vercel](https://vercel.com/) free account
 
 
 ## What we are using
@@ -15,18 +18,21 @@
 - [SASS](https://sass-lang.com/) - CSS with superpowers
 - [Bootstrap 5](https://getbootstrap.com/) - CSS UI library
 
+## API
+
+The API consumed by the application is [https://rickandmortyapi.com/](https://rickandmortyapi.com/) , which is a public and free API useful for learning and practice, based on the popular animated series.
+
+## Publish
+
 ## Repository structure
 
 | Folder          | Description                              |
 | --------------- | ---------------------------------------- |
 | `(root)`        | main config files                        |
-| `/fundamentals` | Theory introduction files                |
-| `/components`   | Vue components for UI                    |
-| `/pages`        | Vue components that will behave as pages |
-
-## API
-
-The API consumed by the application is [https://rickandmortyapi.com/](https://rickandmortyapi.com/) , which is a public and free API useful for learning and practice, based on the popular animated series.
+| `/fundamentals` | theory introduction files                |
+| `/components`   | components for UI                    |
+| `/pages`        | components that will behave as pages |
+| `/layouts`      | shared layout elements |
 
 ## Getting started
 
