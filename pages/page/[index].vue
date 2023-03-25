@@ -1,5 +1,7 @@
 <script setup>
-const { data } = useFetch('https://rickandmortyapi.com/api/character', {
+const route = useRoute()
+
+const { data } = useFetch(`https://rickandmortyapi.com/api/character?page=${route.params.index}`, {
   default: () => ({ results: [], info: {} })
 })
 </script>
