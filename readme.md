@@ -1,6 +1,6 @@
 # Vue + Nuxt Workshop - 18/04/2023 @ Mohole
 
-[ ITA ]
+`[ITA]`
 In questa giornata vedremo come realizzare da zero un catalogo dei personaggi della serie "Rick & Morty" utilizzando il framework Nuxt (_basato su Vue.js_) e una fonte di dati pubblica (https://rickandmortyapi.com/).
 
 ## Requirements
@@ -22,7 +22,8 @@ In questa giornata vedremo come realizzare da zero un catalogo dei personaggi de
 
 The API consumed by the application is [https://rickandmortyapi.com/](https://rickandmortyapi.com/) , which is a public and free API useful for learning and practice, based on the popular animated series.
 
-## Publish
+## Publishing
+This project can be deployed on any Node.js hosting, but to keep things simple & easy we will use the [Vercel free tier](https://vercel.com/pricing).
 
 ## Repository structure
 
