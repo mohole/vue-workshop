@@ -22,6 +22,20 @@ In questa giornata vedremo come realizzare da zero un catalogo dei personaggi de
 
 The API consumed by the application is [https://rickandmortyapi.com/](https://rickandmortyapi.com/) , which is a public and free API useful for learning and practice, based on the popular animated series.
 
+## Table of Contents
+* icebreaking
+* intro + high level concepts
+* setup the project
+* creating the first page
+* preparing more components
+* *-- lunch break --*
+* adding the detail page
+* pagination
+* publish the project
+* [*optional*] live example integrating WordPress
+* Q&A
+* closing
+
 ## Publishing
 This project can be deployed on any Node.js hosting, but to keep things simple & easy we will use the [Vercel free tier](https://vercel.com/pricing).
 
