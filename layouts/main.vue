@@ -6,7 +6,7 @@
   </main>
 </template>
 
-<style module>
+<style scoped>
 main {
   padding: 1rem 0;
 }

@@ -1,10 +1,10 @@
 # Vue + Nuxt Workshop - 18/04/2023 @ Mohole
 
+![workshop poster](_images/hero.png)
+<small>_image generated with Microsoft Designer_</small>
+
 `[ITA]`
 In questa giornata vedremo come realizzare da zero un catalogo dei personaggi della serie "Rick & Morty" utilizzando il framework Nuxt (_basato su Vue.js_) e una fonte di dati pubblica (https://rickandmortyapi.com/).
-
-![worksop poster](_images/poster.jpg)
-<small>_image generated with Bing AI Image Creator_</small>
 
 ## Requirements
 

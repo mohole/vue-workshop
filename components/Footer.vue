@@ -9,7 +9,7 @@ const year = new Date().getFullYear()
   </footer>
 </template>
 
-<style lang="scss" module>
+<style lang="scss" scoped>
 footer {
   p {
     text-align: center;
