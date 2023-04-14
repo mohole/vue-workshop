@@ -3,8 +3,10 @@ const { data } = defineProps(['data'])
 </script>
 
 <template>
-  <div class="card">
-    <img :src="data.image" class="card-img-top" :alt="data.name" />
+  <article class="card">
+    <NuxtLink :to="`/character/${data.id}`">
+      <img :src="data.image" class="card-img-top" :alt="data.name" />
+    </NuxtLink>
     <div class="card-body d-grid">
       <h5 class="card-title">{{ data.name }}</h5>
       <p>Appare in <strong>{{ data.episode.length }}</strong> episodi</p>
@@ -12,12 +14,14 @@ const { data } = defineProps(['data'])
         Vedi dettaglio
       </NuxtLink>
     </div>
-  </div>
+  </article>
 </template>
 
 <style lang="scss" scoped>
-img {
-  min-height: 300px;
-  background-color: lightgray;
+article {
+  img {
+    min-height: 300px;
+    background-color: lightgray;
+  }
 }
 </style>

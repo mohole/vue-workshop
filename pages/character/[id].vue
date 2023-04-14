@@ -23,14 +23,14 @@ const badgeColor = (status) => [
 
 <template>
   <NuxtLayout name="main">
-    <h1>{{ data.name }}</h1>
-
     <section class="data">
+      <h1>{{ data.name }}</h1>
+
       <img :src="data.image" :alt="data.name" class="img-thumbnail" />
 
       <ul>
         <li>Appare in <strong>{{ data.episode.length }}</strong> episodi</li>
-        <li><span :class="badgeColor(data.status)">{{ isDead(data.status) ? 'morto' : 'vivo' }}</span></li>
+        <li>Status: <span :class="badgeColor(data.status)">{{ isDead(data.status) ? 'morto' : 'vivo' }}</span></li>
         <li>Luogo: <i>{{ data.location.name }}</i></li>
       </ul>
     </section>
@@ -52,8 +52,10 @@ h1 {
 }
 
 section.data {
+  max-width: 500px;
   display: flex;
   gap: $spacing;
+  flex-direction: column;
 
   li {
     font-size: 1.5em
